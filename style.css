@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'LabGrotesque-Regular';
+    src: url('/LabGrotesque-Regular.ttf') format('truetype');
+}
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+:root {
+    --main-color: black; /* Пример значения цвета */
+    --secondary-color: #ffffff;
+
+}
+body{
+    font-family: 'LabGrotesque-Regular', sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    color: black;
+    height: 100%;
+}
+.firstback{
+    height: 580px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.welcome{
+    height: 580px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    width: 0%;
+}
+
+.block-text {
+}
+.title
+{   
+    font-size: 14px;
+    margin-top: 57px;
+    opacity: 80%;
+}
+.article1
+{   
+    font-size: 33px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.text1{ 
+    font-size: 16px;
+    opacity: 80%;
+    margin: 16px auto;
+    padding: 0 20px;
+    line-height: 140%;
+}
+.header {
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: absolute;
+}
+.header__button{
+margin-left: 72px;
+margin-top: 38px;
+}
+.header__link{
+    margin-left: 119px;
+}
+.nav {
+    float: right;
+}
+
+.block-text2 {
+    align-items: center;
+}
+.top50{
+    color: #F31B62;
+    font-size: 16px;
+    margin-top: 33px;
+    margin-bottom: 1px;
+}
+.tree1{
+    margin-left: 28px;
+}
+.eat{
+
+}
+.tree2{
+    transform: scale(-1, 1);
+    margin-right: 28px;
+}
+
+.button-z {
+    display: inline-block;
+    padding: 18px 100px;
+    margin-top: 32px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.linkta {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.second
+{
+    color:black;
+    margin-top: 60px;
+    padding: 0px 16px;
+}
+h2{
+    font-size: 14px;
+    text-align: left;
+}
+.text2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 120%;
+}
+.text3{
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 140%;
+}
+.text4{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 170%;
+}
+
+
+.list {
+    margin-top: 50px;
+}
+
+.stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stats li {
+    display: inline-grid;
+    align-items: center;
+    width: 152px;
+}
+
+.stats li:last-child {
+    border-bottom: none;
+}
+
+.stats li .number {
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 24px;
+}
+
+.stats li .text {
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 12px;
+}
+
+.third{
+    color: black;
+    margin-top: 76px;
+    padding: 0px 16px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin:auto;
+}
+
+.comma {
+    margin-left: 20px;
+    right: 270px;
+    top: 1880px;
+    position: absolute;
+}
+.third-text{
+    text-align: left;
+}
+.article2 {
+    font-size: 22px;
+    margin-top: 24px;
+    line-height: 130%;
+}
+.chief {
+    font-size: 14px;
+    margin-top: 40px;
+}
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.why_we{
+    color: black;
+    margin-top: 60px;
+    padding: 0px 16px;
+
+}
+.linewe {
+    text-align: left;
+    font-size: 14px;
+
+}
+.article3 {
+    text-align: left;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.frame-list-108 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper-2{
+    background-color: #222733;
+    background-image: url(./images/Rectangle\ 65393.png);
+    background-repeat: no-repeat;
+    height: 624px;
+}
+.end{
+    color:#ffffff;
+    margin-top: 116px;
+    padding: 0px 16px;
+    text-align: left;
+    height: 624px;
+}
+.CMI {
+    font-size: 14px;
+    opacity: 80%;
+    padding-top: 60px;
+}
+.two-zap {
+    margin-top: 42px;
+}
+.arrow {
+    margin-left: 100px;
+}
+.arrow-2 {
+    margin-left: 6px;
+}
+.endtxt{
+    font-size: 26px;
+    padding-top: 24px;
+    padding-bottom: 6px;
+    line-height: 130%;
+}
+.footer {
+    color: #222733;
+    padding: 0px 16px;
+    text-align: left;
+}
+
+.nordic {
+    margin-top: 40px;
+}
+
+.numberr {
+    margin-top:32px;
+}
+
+.restaurant {
+    position: relative;
+    bottom: 35px;
+    left: 150px;
+    max-width: 200px;
+}
+
+.links {
+    margin-top: 32px;
+}
+
+
